@@ -4,10 +4,10 @@ function takeANumber(katzLine, customer) {
   return `Welcome, ${customer}. You are number ${katzLine.length} in line.`
 }
 
-function nowServing(katzDeli) {
-  if(katzDeli.length === 0) {
-    return "There is nobody waiting to be served!";
-  } else {
-    return `${katzDeli.slice(0,1)}`
-  }
-}
+// function nowServing(katzDeli) {
+//   if(katzDeli.length === 0) {
+//     return "There is nobody waiting to be served!";
+//   } else {
+//     return `${katzDeli.slice(0,1)}`
+//   }
+// }
